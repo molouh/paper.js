@@ -1,6 +1,6 @@
 {
   "name": "paper",
-  "version": "0.12.8",
+  "version": "0.12.11",
   "description": "The Swiss Army Knife of Vector Graphics Scripting",
   "license": "MIT",
   "homepage": "http://paperjs.org",
@@ -23,7 +23,7 @@
     "load": "gulp load",
     "jshint": "gulp jshint",
     "test": "gulp test",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions || true"
   },
   "files": [
     "AUTHORS.md",
